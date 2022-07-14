@@ -7,13 +7,23 @@ body {
   font-family: 'roboto', sans-serif;
 }
 
+p {
+    margin: 8px;
+}
+
 h1 {
     font: 48px;
     font-weight: extra-bold;
+    margin: 8px;
     color: #F9FAF8;
 }
 
+h2 {
+    margin: 8px;
+}
+
 h3 {
+    margin: 8px;
     font-weight: extra-bold;
     color: #F9FAF8;
 }
@@ -30,8 +40,9 @@ button {
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: #1F2937;
+    padding: 8px;
 }
 
 .header-logo {
@@ -58,6 +69,7 @@ button {
     justify-content: space-evenly;
     margin: auto;
     width: 75%;
+    gap: 16px;
 }
 
 .hero-text {
@@ -109,6 +121,10 @@ button {
     width: 75%;
 }
 
+.card {
+    max-width: 240px;
+}
+
 .content {
     background-color: #E5E7EB;
     padding: 48px;
@@ -117,9 +133,11 @@ button {
 .quote {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: auto;
     width: 75%;
     padding: 48px;
+    max-width: 960px;
 }
 
 .quote-text {
@@ -151,11 +169,12 @@ button {
     width: 75%;
     padding: 24px;
     border-radius: 12px;
+    gap: 64px;
 }
 
 .ad-text {
     display: flex;
-    flex-direction: columns;
+    flex-direction: column;
 }
 
 footer {
