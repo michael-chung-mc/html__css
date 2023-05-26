@@ -9,11 +9,13 @@
     grid-row: 1 / span 1;
     display: grid;
     grid-template-rows: 1fr 2fr;
+    gap: 20px;
 }
 
 .top_header_bar {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
 }
 
 .top_header_bar_search {
@@ -48,9 +50,80 @@
 .sidebar {
     grid-column: 1 / span 1;
     grid-row: 1 / span 2;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+}
+
+.dashboard,
+.home_tab,
+.profile_tab,
+.messages_tab,
+.history_tab,
+.tasks_tab,
+.communities_tab,
+.settings_tab,
+.support_tab,
+.privacy_tab {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.action_tabs {
+    grid-row: 2/ span 1;
 }
 
 .content_container {
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.projects_container {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.projects_container_content {
+    grid-column: repeat(autofit, minmax(150px, 1fr));
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project_box {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+.project_box_actions {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+.project_favorite_icon {
+    grid-column: 2 / span 1;
+}
+
+.project_watch_icon {
+    grid-column: 3 / span 1;
+}
+
+.project_fork_icon {
+    grid-column: 4 / span 1;
+}
+
+.side_content_container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+}
+
+.announcements_container {
+    display: grid;
+    gap: 24px;
+}
+
+.trend_box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
