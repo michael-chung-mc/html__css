@@ -3,17 +3,23 @@
         <head>
             <meta charset="UTF-8">
             <link rel="stylesheet" href="./styles.css">
+            <style>
+                @font-face {
+                    font-family: Roboto;
+                    src:url("./fonts/Roboto-Regular.ttf");
+                }
+            </style>
         </head>
         <body>
             <div class="container">
                 <div class="header">
                     <div class="top_header_bar">
                         <div class="top_header_bar_search">
-                            <div class="search_icon"><img src="./images/magnify.svg"></div>
+                            <img src="./images/magnify.svg" class="search_icon">
                             <input type="text" class="search_input"></input>
                         </div>
                         <div class="top_header_bar_account">
-                            <div class="notification_icon"><img src="./images/bell-ring.svg"></div>
+                            <img src="./images/bell-ring.svg" class="notification_icon">
                             <div class="user_avatar_small">AVA</div>
                             <div class="username">USERNAME</div>
                         </div>
@@ -27,55 +33,55 @@
                             </div>
                         </div>
                         <div class="bottom_header_action_bar">
-                            <div class="new">NEW</div>
-                            <div class="upload">UPLOAD</div>
-                            <div class="share">SHARE</div>
+                            <div class="new tab_text">New</div>
+                            <div class="upload tab_text">Upload</div>
+                            <div cla1ss="share tab_text">Share</div>
                         </div>
                     </div>
                 </div>
                 <div class="sidebar">
                     <div class="dashboard">
-                        <div class="dashboard_icon"><img src="./images/view-quilt-outline.svg"></div>
+                        <img src="./images/view-quilt-outline.svg" class="dashboard_icon">
                         <div class="dashboard_text">Dashboard</div>
                     </div>
                     <div class="action_tabs">
                         <div class="home_tab">
-                            <div class="home_icon"><img src="./images/home.svg"></div>
-                            <div class="home_text">HOME</div>
+                            <img src="./images/home.svg" class="action_icon" id="home_icon">
+                            <div class="home tab_text">Home</div>
                         </div>
                         <div class="profile_tab">
-                            <div class="profile_icon"><img src="./images/card-account-details.svg"></div>
-                            <div class="profile_text">profile</div>
+                            <img src="./images/card-account-details.svg" class="action_icon" id="profile_icon">
+                            <div class="profile tab_text">Profile</div>
                         </div>
                         <div class="messages_tab">
-                            <div class="messages_icon"><img src="./images/message-outline.svg"></div>
-                            <div class="messages_text">messages</div>
+                            <img src="./images/message-outline.svg" class="action_icon" id="messages_icon">
+                            <div class="messages tab_text">Messages</div>
                        </div>
                         <div class="history_tab">
-                            <div class="history_icon"><img src="./images/history.svg"></div>
-                            <div class="history_text">history</div>
+                            <img src="./images/history.svg" class="action_icon" id="history_icon">
+                            <div class="history tab_text">History</div>
                        </div>
                         <div class="tasks_tab">
-                            <div class="tasks_icon"><img src="./images/note-outline.svg"></div>
-                            <div class="tasks_text">tasks</div>
+                            <img src="./images/note-outline.svg" class="action_icon" id="tasks_icon">
+                            <div class="tasks tab_text">Tasks</div>
                        </div>
                         <div class="communities_tab">
-                            <div class="communities_icon"><img src="./images/account-multiple.svg"></div>
-                            <div class="communities_text">communities</div>
+                            <img src="./images/account-multiple.svg" class="action_icon" id="communities_icon">
+                            <div class="communities tab_text">Communities</div>
                        </div>
                     </div>
-                    <div class="settings_tabs">
-                        <div class = "settings_tab">
-                            <div class="settings_icon"><img src="./images/cog.svg"></div>
-                            <div class="settings_text">settings</div>
+                    <div class="info_tabs">
+                        <div class = "setting_tab">
+                            <img src="./images/cog.svg" class="info_icon" id="setting_icon">
+                            <div class="setting tab_text">Settings</div>
                        </div>
                         <div class = "support_tab">
-                            <div class="support_icon"><img src="./images/help-box-outline.svg"></div>
-                            <div class="support_text">support</div>
+                            <img src="./images/help-box-outline.svg" class="info_icon" id="support_icon">
+                            <div class="support tab_text">Support</div>
                        </div>
                         <div class = "privacy_tab">
-                            <div class="privacy_icon"><img src="./images/security.svg"></div>
-                            <div class="privacy_text">privacy</div>
+                            <img src="./images/security.svg" class="info_icon" id="privacy_icon">
+                            <div class="privacy tab_text">Privacy</div>
                        </div>
                     </div>
                 </div>
@@ -87,54 +93,54 @@
                                 <div class="project_title" id="project_one_title">Project 1</div>
                                 <div class="project_summary" id="project_one_summary">Project Text</div>
                                 <div class="project_box_actions" id="project_one_box_action">
-                                    <div class="project_favorite_icon" id="project_one_favorite"><img src="./images/star-plus-outline.svg"></div>
-                                    <div class="project_watch_icon" id="project_one_watch"><img src="./images/eye-plus-outline.svg"></div>
-                                    <div class="project_fork_icon" id="project_one_fork"><img src="./images/source-fork.svg"></div>
+                                    <img src="./images/star-plus-outline.svg" class="project_favorite_icon" id="project_1_favorite">
+                                    <img src="./images/eye-plus-outline.svg" class="project_watch_icon" id="project_1_watch">
+                                    <img src="./images/source-fork.svg" class="project_fork_icon" id="project_1_fork">
                                 </div>
                             </div>
                             <div class="project_box" id="project_two_box">
                                 <div class="project_title" id="project_two_title">Project 2</div>
                                 <div class="project_summary" id="project_two_summary">Project Text</div>
                                 <div class="project_box_actions" id="project_two_box_action">
-                                    <div class="project_favorite_icon" id="project_two_favorite"><img src="./images/star-plus-outline.svg"></div>
-                                    <div class="project_watch_icon" id="project_two_watch"><img src="./images/eye-plus-outline.svg"></div>
-                                    <div class="project_fork_icon" id="project_two_fork"><img src="./images/source-fork.svg"></div>
+                                    <img src="./images/star-plus-outline.svg" class="project_favorite_icon" id="project_2_favorite">
+                                    <img src="./images/eye-plus-outline.svg" class="project_watch_icon" id="project_2_watch">
+                                    <img src="./images/source-fork.svg" class="project_fork_icon" id="project_2_fork">
                                 </div>
                             </div>
                             <div class="project_box" id="project_three_box">
                                 <div class="project_title" id="project_three_title">Project 3</div>
                                 <div class="project_summary" id="project_three_summary">Project Text</div>
                                 <div class="project_box_actions" id="project_three_box_action">
-                                    <div class="project_favorite_icon" id="project_three_favorite"><img src="./images/star-plus-outline.svg"></div>
-                                    <div class="project_watch_icon" id="project_three_watch"><img src="./images/eye-plus-outline.svg"></div>
-                                    <div class="project_fork_icon" id="project_three_fork"><img src="./images/source-fork.svg"></div>
+                                    <img src="./images/star-plus-outline.svg" class="project_favorite_icon" id="project_3_favorite">
+                                    <img src="./images/eye-plus-outline.svg" class="project_watch_icon" id="project_3_watch">
+                                    <img src="./images/source-fork.svg" class="project_fork_icon" id="project_3_fork">
                                 </div>
                             </div>
                             <div class="project_box" id="project_four_box">
                                 <div class="project_title" id="project_four_title">Project 4</div>
                                 <div class="project_summary" id="project_four_summary">Project Text</div>
                                 <div class="project_box_actions" id="project_four_box_action">
-                                    <div class="project_favorite_icon" id="project_four_favorite"><img src="./images/star-plus-outline.svg"></div>
-                                    <div class="project_watch_icon" id="project_four_watch"><img src="./images/eye-plus-outline.svg"></div>
-                                    <div class="project_fork_icon" id="project_four_fork"><img src="./images/source-fork.svg"></div>
+                                    <img src="./images/star-plus-outline.svg" class="project_favorite_icon" id="project_4_favorite">
+                                    <img src="./images/eye-plus-outline.svg" class="project_watch_icon" id="project_4_watch">
+                                    <img src="./images/source-fork.svg" class="project_fork_icon" id="project_4_fork">
                                 </div>
                             </div>
                             <div class="project_box" id="project_five_box">
                                 <div class="project_title" id="project_five_title">Project 5</div>
                                 <div class="project_summary" id="project_five_summary">Project Text</div>
                                 <div class="project_box_actions" id="project_five_box_action">
-                                    <div class="project_favorite_icon" id="project_five_favorite"><img src="./images/star-plus-outline.svg"></div>
-                                    <div class="project_watch_icon" id="project_five_watch"><img src="./images/eye-plus-outline.svg"></div>
-                                    <div class="project_fork_icon" id="project_five_fork"><img src="./images/source-fork.svg"></div>
+                                    <img src="./images/star-plus-outline.svg" class="project_favorite_icon" id="project_5_favorite">
+                                    <img src="./images/eye-plus-outline.svg" class="project_watch_icon" id="project_5_watch">
+                                    <img src="./images/source-fork.svg" class="project_fork_icon" id="project_5_fork">
                                 </div>
                             </div>
                             <div class="project_box" id="project_six_box">
                                 <div class="project_title" id="project_six_title">Project 6</div>
                                 <div class="project_summary" id="project_six_summary">Project Text</div>
                                 <div class="project_box_actions" id="project_six_box_action">
-                                    <div class="project_favorite_icon" id="project_six_favorite"><img src="./images/star-plus-outline.svg"></div>
-                                    <div class="project_watch_icon" id="project_six_watch"><img src="./images/eye-plus-outline.svg"></div>
-                                    <div class="project_fork_icon" id="project_six_fork"><img src="./images/source-fork.svg"></div>
+                                    <img src="./images/star-plus-outline.svg" class="project_favorite_icon" id="project_6_favorite">
+                                    <img src="./images/eye-plus-outline.svg" class="project_watch_icon" id="project_6_watch">
+                                    <img src="./images/source-fork.svg" class="project_fork_icon" id="project_6_fork">
                                 </div>
                             </div>
                         </div>
@@ -142,17 +148,19 @@
                     <div class="side_content_container">
                         <div class="announcements_container">
                             <div class="announcements_text">Announcements</div>
-                            <div class="announcement" id="announcement_one">
-                                <div class="announcement_title" id="annoucement_one_text">Announcement One</div>
-                                <div class="announcement_text" id="annoucement_one_text">Lorem ipsum one</div>
-                            </div>
-                            <div class="announcement" id="announcement_two">
-                                <div class="announcement_title" id="annoucement_two_text">Announcement Two</div>
-                                <div class="announcement_text" id="annoucement_two_text">Lorem ipsum two</div>
-                            </div>
-                            <div class="announcement" id="announcement_three">
-                                <div class="announcement_title" id="annoucement_three_text">Announcement Three</div>
-                                <div class="announcement_text" id="annoucement_three_text">Lorem ipsum three</div>
+                            <div class="announcement_container_content">
+                                <div class="announcement" id="announcement_one">
+                                    <div class="announcement_title" id="announcement_one_title">Announcement One</div>
+                                    <div class="announcement" id="announcement_one_text">Lorem ipsum one</div>
+                                </div>
+                                <div class="announcement" id="announcement_two">
+                                    <div class="announcement_title" id="announcement_two_title">Announcement Two</div>
+                                    <div class="announcement_text" id="announcement_two_text">Lorem ipsum two</div>
+                                </div>
+                                <div class="announcement" id="announcement_three">
+                                    <div class="announcement_title" id="announcement_three_title">Announcement Three</div>
+                                    <div class="announcement_text" id="announcement_three_text">Lorem ipsum three</div>
+                                </div>
                             </div>
                         </div>
                         <div class="trending_container">
@@ -160,19 +168,31 @@
                             <div class="trending_container_content">
                                 <div class="trend_box" id="trend_one">
                                     <div class="trend_icon" id="trend_one_icon">ICO</div>
-                                    <div class="trend_title" id="trend_one_title">Title</div>
+                                    <div class="trend_title" id="trend_one_title">
+                                        <div class="trend_username" id="trend_1_username">@user</div>
+                                        <div class="trend_summary" id="trend_1_summary">Summary</div>
+                                    </div>
                                 </div>
                                 <div class="trend_box" id="trend_two">
                                     <div class="trend_icon" id="trend_two_icon">ICO</div>
-                                    <div class="trend_title" id="trend_two_title">Title</div>
+                                    <div class="trend_title" id="trend_two_title">
+                                        <div class="trend_username" id="trend_2_username">@user</div>
+                                        <div class="trend_summary" id="trend_2_summary">Summary</div>
+                                    </div>
                                 </div>
                                 <div class="trend_box" id="trend_three">
                                     <div class="trend_icon" id="trend_three_icon">ICO</div>
-                                    <div class="trend_title" id="trend_three_title">Title</div>
+                                    <div class="trend_title" id="trend_three_title">
+                                        <div class="trend_username" id="trend_3_username">@user</div>
+                                        <div class="trend_summary" id="trend_3_summary">Summary</div>
+                                    </div>
                                 </div>
                                 <div class="trend_box" id="trend_four">
                                     <div class="trend_icon" id="trend_four_icon">ICO</div>
-                                    <div class="trend_title" id="trend_four_title">Title</div>
+                                    <div class="trend_title" id="trend_four_title">
+                                        <div class="trend_username" id="trend_4_username">@user</div>
+                                        <div class="trend_summary" id="trend_4_summary">Summary</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
