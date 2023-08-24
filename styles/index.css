@@ -20,6 +20,7 @@ footer {
 
 .navigation-links {
     display: flex;
+    gap: 1rem;
 }
 
 .hero-content {
