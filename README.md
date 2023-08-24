@@ -32,6 +32,7 @@ https://michael-chung-mc.github.io/practice__html__css/
 * Git
 ### Roadmap
 - [x] landing page
+- [x] links and images page
 - [x] recipe page
     - [x] recipe links
 - [x] admin dashboard mockup
