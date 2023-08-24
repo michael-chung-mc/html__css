@@ -34,6 +34,7 @@ https://michael-chung-mc.github.io/practice__html__css/
 - [x] landing page
 - [x] recipe page
     - [x] recipe links
+- [x] admin dashboard mockup
 ## Acknowledgements
 * [The Odin Project](https://www.theodinproject.com)
 * [All Recipes](https://www.allrecipes.com)
