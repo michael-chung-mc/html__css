@@ -1,18 +1,97 @@
 <!DOCTYPE html>
-<html lang = "en">
- <head>
-  <meta charset="UTF-8">
-  <title>Odin's Recipes</title>
-  <link rel="stylesheet" href="style.css">
- </head>
- <body>
-  <h1>Odin Recipes</h1>
-  <h3>Recipe List</h3>
-  <ul>
-   <li><a href="./recipes/lasagna.html">Brenda's Lasagna</a></li>
-   <li><a href="./recipes/pretzel.html">Kim's 2 Ingrediant Pretzel</a></li>
-   <li><a href="./recipes/salad.html">Insalata Caprese II</a></li>
-  </ul>
- </body>
- <footer>Sourced From AllRecipes</footer>
-</html>
+<head lang="en">
+  <meta charset="utf8">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+  <div class="header dark-background">
+    <div class = "header-section default-margin">
+      <div class = "header-logo light-text medium-text">
+          <p>Header Logo</p>
+      </div>
+      <div class = "navigation light-text">
+          <div class = "navigation-links">
+            <p>header link 1</p>
+            <p>header link 2</p>
+            <p><a href="./src/recipe.html">Recipes</a></p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="page-body">
+    <div class = "hero dark-background light-text">
+      <div class = "hero-content default-margin big-padding">
+        <div class = "cta">
+          <div class = "hero-text">
+            <p class ="bold-text large-text small-margin">This website is awesome</p>
+            <p class ="small-text">This website has some subtext that goes here under the main title.
+                It's a smaller font and the color is lower contrast.
+            </p>
+          </div>
+          <button type ="button" class = "borderless-button medium-background light-text">Sign Up</button>
+        </div>
+        <div class = "hero-image">
+            <p>This is a placeholder for an image</p>
+        </div>
+      </div>
+    </div>
+    <div class ="card-section dark-text">
+      <p class = "cards-header default-margin medium-padding medium-text bold-text">Some random information.</p>
+      <div class = "cards default-margin medium-padding">
+          <div class = "card">
+              <div class = "card-image">
+                  <p>placeholder image</p>
+              </div>
+              <div class = "card-text">
+                <p>this is some subtext under an illustration of an image</p>
+              </div>
+          </div>
+          <div class = "card">
+              <div class = "card-image">
+                  <p>placeholder image</p>
+              </div>
+              <div class = "card-text">
+                <p>this is some subtext under an illustration of an image</p>
+              </div>
+          </div>
+          <div class = "card">
+              <div class = "card-image">
+                  <p>placeholder image</p>
+              </div>
+              <div class = "card-text">
+                <p>this is some subtext under an illustration of an image</p>
+              </div>
+          </div>
+          <div class = "card">
+              <div class = "card-image">
+                  <p>placeholder image</p>
+              </div>
+              <div class = "card-text">
+                <p>this is some subtext under an illustration of an image</p>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class = "content light-background">
+      <div class = "quote default-margin big-padding dark-text small-text">
+        <p class = "quote-text small-margin"><em>This is an inspiring quote, or a testimonial from a customer.
+            Maybe it's just filling up space, or maybe people will actually read it.
+            Who knows? All I know is that it looks nice.</em></p>
+        <p class = "quote-citation small-margin"><strong>-Thor, God of Thunder</strong></p>
+      </div>
+    </div>
+    <div class = "ads big-padding">
+      <div class ="ad default-margin medium-background light-text big-padding">
+        <div class = "ad-text">
+          <p class = "small-margin bold-text">Call to action! it's time!</p>
+          <p class = "small-margin">Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <button type="button" class ="bordered-button medium-background light-text">Sign Up</button>
+      </div>
+    </div>
+  </div>
+  <footer class="dark-background medium-padding">
+    <div class = "footer-text light-text">Copyright (c) The Odin Project 2021 </div>
+  </footer>
+</body>
