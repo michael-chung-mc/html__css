@@ -36,4 +36,5 @@ https://michael-chung-mc.github.io/practice__html__css/
     - [x] recipe links
 ## Acknowledgements
 * [The Odin Project](https://www.theodinproject.com)
+* [All Recipes](https://www.allrecipes.com)
 <p align="right">(<a href="#readme-top">back to top </a>)</p>
