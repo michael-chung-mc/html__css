@@ -17,7 +17,8 @@
         </li>
         <li><a href="#usage">Usage</a>
             <ul>
-                <li><a href="#installation">Installation</li>
+                <li><a href="#install">Install</li>
+                <li><a href="#run">Run</li>
             </ul>
         </li>
         <li><a href="#acknowledgements">Acknowledgements</li>
@@ -44,7 +45,8 @@ https://michael-chung-mc.github.io/practice__html__css/
     - [x] recipe links
 - [x] admin dashboard mockup
 ## Usage
-### Installation
+### Install
+### Run
 ## Acknowledgements
 * [The Odin Project](https://www.theodinproject.com)
 * [All Recipes](https://www.allrecipes.com)
