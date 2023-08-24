@@ -6,6 +6,7 @@
         <li><a href="#goals">Goals</a>
             <ul>
                 <li><a href="#about">About</li>
+                <li><a href="#preview">Preview</li>
             </ul>
         </li>
         <li><a href="#design">Design</li>
@@ -16,7 +17,7 @@
         </li>
         <li><a href="#usage">Usage</a>
             <ul>
-                <li><a href="#preview">Preview</li>
+                <li><a href="#installation">Installation</li>
             </ul>
         </li>
         <li><a href="#acknowledgements">Acknowledgements</li>
@@ -26,6 +27,8 @@
 ## Goals
 Raw HTML and CSS.
 ### About
+### Preview
+https://michael-chung-mc.github.io/practice__html__css/
 ## Design
 ### Tools
 * HTML
@@ -41,8 +44,7 @@ Raw HTML and CSS.
     - [x] recipe links
 - [x] admin dashboard mockup
 ## Usage
-### Preview
-https://michael-chung-mc.github.io/practice__html__css/
+### Installation
 ## Acknowledgements
 * [The Odin Project](https://www.theodinproject.com)
 * [All Recipes](https://www.allrecipes.com)
