@@ -20,6 +20,8 @@
 ## Goals
 Raw HTML and CSS.
 ### About
+preview:
+https://michael-chung-mc.github.io/practice__html__css/
 ## Design
 ### Tools
 * HTML
