@@ -1,4 +1,4 @@
-# practice__html_css
+# wip__html_css
 <a name="readme-top"></a>
 <details>
     <summary>Table of Contents</summary>
@@ -27,10 +27,10 @@
 </details>
 
 ## Goals
-Raw HTML and CSS.
+Practice Raw HTML and CSS
 ### About
 ### Preview
-https://michael-chung-mc.github.io/practice__html__css/
+https://michael-chung-mc.github.io/wip__html__css/
 ## Design
 ### Requirements
 ### Tools
